@@ -1,0 +1,11 @@
+dashscope:
+  api_key: "YOUR_DASHSCOPE_API_KEY_HERE"  # 替换为你的阿里云 DashScope API Key
+  model: "fun-asr-realtime-2026-02-28"    # FunASR 实时语音识别模型
+
+audio:
+  sample_rate: 16000
+  channels: 1
+
+hotkey:
+  key: "alt_r"  # 右 Alt 键，按住录音，松开识别
+  # 可选: "ctrl_r", "super_r", "menu"
